@@ -1,11 +1,13 @@
 package com.practicum.newsreader.data.dto
 
 data class NewsDataDto(
-    val uuid : String,
+    val id: String?,
+    val name: String?,
+    val author: String?,
     val title: String,
     val description: String?,
-    val url: String?,
+    val url: String,
     val urlToImage: String?,
     val publishedAt: String,
-    val source: String
+    val content: String?
 )
