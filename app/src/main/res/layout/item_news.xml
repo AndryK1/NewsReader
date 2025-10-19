@@ -3,7 +3,9 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@drawable/news_item_bg">
+    android:background="@drawable/news_item_bg"
+    android:layout_margin="10dp"
+    >
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/posterLayout"
@@ -47,11 +49,11 @@
         android:layout_width="24dp"
         android:layout_height="24dp"
         android:src="@drawable/ic_news"
-        app:layout_constraintStart_toEndOf="@id/posterLayout"
+        app:layout_constraintStart_toStartOf="@id/posterLayout"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/posterLayout"
-        android:layout_marginStart="12dp"
-        android:layout_marginBottom="20dp"/>
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="15dp"/>
 
     <TextView
         android:id="@+id/publisher"

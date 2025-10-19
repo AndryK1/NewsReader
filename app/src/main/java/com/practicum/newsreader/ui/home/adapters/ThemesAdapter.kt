@@ -1,9 +1,10 @@
-package com.practicum.newsreader.ui.home
+package com.practicum.newsreader.ui.home.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.practicum.newsreader.R
+import com.practicum.newsreader.ui.home.adapters.ThemesViewHolder
 
 class ThemesAdapter(
     private val themesList : List<String>

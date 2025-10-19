@@ -1,4 +1,4 @@
-package com.practicum.newsreader.ui.home
+package com.practicum.newsreader.ui.home.adapters
 
 import android.view.View
 import android.widget.TextView
